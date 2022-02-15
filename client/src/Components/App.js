@@ -37,7 +37,7 @@ function App() {
             })
           }
         })
-
+        
         fetch('/appointments')
         .then(res => {
           if (res.ok) {
