@@ -1,4 +1,4 @@
-/* .div6 {
+.div6 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,5 +10,12 @@
     margin-right: -50%;
     transform: translate(-50%, -50%);
     margin: 0;
-    font-size: 34px;
-} */
+    font-size: 18px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}

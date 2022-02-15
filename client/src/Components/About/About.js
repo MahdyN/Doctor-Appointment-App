@@ -1,16 +1,16 @@
 import React from 'react'
 import './About.css'
 
-export default function About({ userWelcome }) {
+export default function About() {
+
+    // do we need an about page? maybe the home page covers it
+    // do we need an about page? maybe the home page covers it
+    // do we need an about page? maybe the home page covers it
 
     
     return (
-        <div >
-            <div className="apol">
-                <h4>More about this, some other time....</h4>
-                {userWelcome}
-
-            </div>
-        </div>
+        <h3 className="div2">
+            Pickadoc 
+        </h3>
     )
 }
