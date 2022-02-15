@@ -16,6 +16,8 @@ function App() {
     const [doctors, setDoctors] = useState([])
     const [appointments, setAppointments] = useState([])
 
+
+    
     useEffect(() => {
       fetch('/authorized_user')
       .then(res => {
@@ -38,6 +40,7 @@ function App() {
             })
           }
         })
+      
 
         fetch('/appointments')
         .then(res => {
@@ -59,7 +62,6 @@ function App() {
           <Navbar setUser={setUser} setIsAuthenticated={setIsAuthenticated} user={user} />
           <Routes>
             <Route path="/about" element={<About />} />
-            {/* <Route path="/profile" element={<Profile user={user} setUser={setUser} />} /> */}
             <Route path="/home" element={<Home />} />
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
